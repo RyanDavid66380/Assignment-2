@@ -1,0 +1,264 @@
+#ryan1 {
+    background-image: url(images/backgroumd.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#ryan12 {
+    background-image: url(images/children.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boxone{
+    border: 15px white solid;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#Text{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+}
+#Textone{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white; 
+    border: black solid 3px;
+    text-align: center;
+    background-image: url(images/Capture.PNG);
+}
+#imgmo{
+    border: solid white 0.1px;
+}
+#amount{
+    border: solid black 3px;
+    
+}
+#amountseatone{
+    width: 50px;margin-left: 50px; 
+  display: block;
+}
+#amountone{
+    width: 50px;margin-left: 50px; 
+  display: block;
+}
+#headingTheature{
+    text-align: center;
+    color: white;
+}#output {
+    min-height: 50px;
+    border: 1px solid white; 
+     
+    width: 200px;height: 2px;
+  }
+#Discount{
+    border: blue solid 3px;
+}
+strong{
+    color: black;
+    text-decoration: underline;
+}
+#info{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #404343;
+    color: black;
+    
+}
+#heading{
+    text-align: center;
+    color: blue;
+}
+#footer{
+    margin-left: 30px;
+    margin-right: 20px;
+    color: white;
+}
+#images{
+    width: 300px;
+    height: 300px;
+    margin-left: 250px;
+    border:  5px black;
+        border-style: double;
+        background-color: antiquewhite;
+        display: block;
+        width: 30%;
+        border-radius: 20%;
+}
+
+#content {
+    background-color: #404343;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#hobbies {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#website {
+    border: black solid 2px;
+    text-decoration-style: solid;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#websitecontent1 {
+    border: black solid 2px;
+    text-decoration-style: solid;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#web {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(78, 57, 57);
+    border: black 4px;
+    border-style: double;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: wheat;
+    color: black;
+}
+
+@media screen and (max-width:360px){
+
+    #ryan1 {
+        background-image: url(images/backgroumd.jpg);
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    
+    #ryan12 {
+        background-image: url(images/children.jpg);
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #content {
+        background-color: azure;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    #hobbies {
+        border-radius: 50%;
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    
+    #website {
+        border: black solid 2px;
+        text-decoration-style: solid;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    #websitecontent1 {
+        border: black solid 2px;
+        text-decoration-style: solid;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    #web {
+        border-radius: 50%;
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1 {
+        text-align: center
+    }
+    
+    .topnav {
+        overflow: hidden;
+        background-color: brown;
+        border: black 4px;
+        border-style: double;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: rgb(255, 0, 0);
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: wheat;
+        color: black;
+    }
+}

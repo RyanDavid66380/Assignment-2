@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Movie</title>
+    <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta
+      name="keywords"
+      content="Movie Seat Selection a Responsive Web Template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web Template, Smartphone Compatible Web Template, Free Webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design"
+    />
+
+    <link rel="icon" type="images/png" href="images/iconm.png" />
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="Qualification.html">Qualificaition</a>
+      <a href="CSSSkills.html">Css Skills</a>
+      <a href="Programming.html">Programming Skills</a>
+    </div>
+    <legend><h1>Movies Playing</h1></legend>
+    <img
+      class="responsivetwo"
+      style="width: 200px; height: 300px;"
+      src="images/CaptianMarvel.png"
+    />
+    <img
+      class="responsivetwo"
+      style="width: 200px; height: 300px;"
+      src="images/Alladin.png"
+    />
+    <img
+      class="responsivetwo"
+      style="width: 200px; height: 300px;"
+      src="images/BlackPanther.png"
+    />
+    <img
+      class="responsivetwo"
+      style="width: 200px; height: 300px;"
+      src="images/1917.png"
+    />
+    <img
+      class="responsivetwo"
+      style="width: 200px; height: 300px;"
+      src="images/End Game.jpg"
+    />
+    <img
+      class="responsivetwo"
+      style="width: 200px; height: 300px;"
+      src="images/HAMILTON.png"
+    />
+    <img
+      class="responsivetwo"
+      style="width: 200px; height: 300px;"
+      src="images/Infinity war.jpg"
+    />
+    <img
+      class="responsivetwo"
+      style="width: 200px; height: 300px;"
+      src="images/Joker.jpg"
+    />
+    <img
+      class="responsivetwo"
+      style="width: 200px; height: 300px;"
+      src="images/Miss Saigon.png"
+    />
+
+    <h1>Movie Selection</h1>
+    <div id="responsive">
+      <form action="/action_page.php">
+        <label for="Movies" required>Choose a movie:</label>
+        <select name="Movies" id="movies" required>
+          <option value="Please select">Please select</option>
+          <option value="Phantom">Phantom of the Operal---£79</option>
+          <option value="Hamilton ">Hamilton---£85</option>
+          <option value="LionKing">Lion King----£67</option>
+          <option value="MissSaigon">Miss Saigon----£83</option> </select
+        ><br />
+        <label for="seats" required>Number of seats </label>
+        <input
+          type="number"
+          id="numberOfSeats"
+          name="seats"
+          min="1"
+          required
+        /><br />
+        <label for="Movies">Method of delivery</label>
+        <select name="delivery" id="delivery" required>
+          <option value="Please select">Please select</option>
+          <option value="Phantom of the Opera">E-ticket --- Free</option>
+          <option value="Hamilton">Collect from Box Office --- £1.50</option>
+          <option value="Lion King">Posted--£3.99</option>
+        </select>
+        <fieldset data-role="controlgroup">
+          <legend >Choose from bellow:</legend>
+            <label for="male">Basic tickets</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Premium tickets</label>
+            <input type="radio" name="gender" id="female" value="female">
+          </fieldset>
+           
+        <br />
+        <button type="submit" id="Calculate" name="getTickets">Book</button>
+        <p id="output"></p>
+      </form>
+      <script src="theatre.js"></script>
+    </div>
+  </body>
+</html>

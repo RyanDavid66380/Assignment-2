@@ -1,0 +1,203 @@
+#ryan1 {
+    background-image: url(images/backgroumd.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#ryan12 {
+    background-image: url(images/children.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content {
+    background-color: #989393;
+    margin: 0 auto;
+    width: 80%;
+}
+#black{
+    border: white 4px solid;background-color: black;color: white;margin-right: 200px;
+
+                margin-left: 200px
+}
+
+#hobbies {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#Text {
+	text-align: center;
+}
+#website {
+    border: black solid 2px;
+    text-decoration-style: solid;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#websitecontent1 {
+    border: black solid 2px;
+    text-decoration-style: solid;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#web {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(78, 57, 57);
+    border: black 4px;
+    border-style: double;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(75, 67, 67);
+    color: black;
+}
+
+.topnav a.active {
+    background-color: wheat;
+    color: black;
+}
+#Qualification{
+    text-align: center;
+}
+
+@media screen and (max-width:360px){
+    #ryan1 {
+        background-image: url(images/backgroumd.jpg);
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    
+    #ryan12 {
+        background-image: url(images/children.jpg);
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #content {
+        background-color: #989393;
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    #hobbies {
+        border-radius: 50%;
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    
+    #website {
+        border: black solid 2px;
+        text-decoration-style: solid;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    #websitecontent1 {
+        border: black solid 2px;
+        text-decoration-style: solid;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    #web {
+        border-radius: 50%;
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1 {
+        text-align: center
+    }
+    
+    .topnav {
+        overflow: hidden;
+        background-color: brown;
+        border: black 4px;
+        border-style: double;
+    }
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: rgb(255, 0, 0);
+        color: black;
+    }
+    
+    .topnav a.active {
+        background-color: wheat;
+        color: black;
+    }
+    #Qualification{
+        text-align: center;
+    }
+
+
+
+}
